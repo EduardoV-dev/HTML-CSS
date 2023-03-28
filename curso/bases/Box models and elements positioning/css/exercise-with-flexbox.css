@@ -25,7 +25,13 @@ body {
     line-height: 140px;
 }
 
-.container > aside {
+.container .flexbox-container {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.container aside {
     width: 270px;
     height: 450px;
     background-color: #0d4a0d;
@@ -34,10 +40,9 @@ body {
     line-height: 450px;
 
     margin-top: 16px;
-    float: left;
 }
 
-.container > main {
+.container main {
     width: 690px;
     height: 450px;
     background-color: #0d4a0d;
@@ -49,8 +54,6 @@ body {
 }
 
 .container > footer {
-    clear: both;
-
     width: 980px;
     height: 70px;
     background-color: #0d4a0d;
